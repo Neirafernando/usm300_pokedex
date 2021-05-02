@@ -20,7 +20,7 @@ tinymce.init({
     let nombre = document.querySelector("#nombre-txt").value ;
     let tipo = document.querySelector("#tipo-select"). value ;
     let legendario = document.querySelector("#legenfdario-si"). checked   ;
-    let descripcion = tinymce.get("descripcion-txt").getContent(); //solo paratinymc
+    let descripcion = tinymce.get("descripcion-txt").getContent(); //solo para tinymc
     
     console.log("hola mundo", nombre, " ", tipo, "" ,legendario," ",descripcion);     
   } );
